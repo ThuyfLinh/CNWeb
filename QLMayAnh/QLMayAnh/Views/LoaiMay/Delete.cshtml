@@ -1,0 +1,41 @@
+﻿@model QLMayAnh.Models.Entity.LOAIMAY
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LoaiMay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDLOAIMAY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDLOAIMAY)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TENLMAY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENLMAY)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div>
+        <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("List", "LoaiMay")'">
+            <i class="fa fa-arrow-left"></i>
+        </button>
+    </div>
+    }
+</div>

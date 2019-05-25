@@ -1,0 +1,74 @@
+﻿@model PagedList.IPagedList<QLMayAnh.Models.Entity.KHACHHANG>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Create", "KhachHang")'">
+    <i class="fa fa-plus-square"></i> Create New
+</button>
+
+<table class="table">
+    <tr>
+        <th>
+            Mã khách hàng
+        </th>
+        <th>
+            Tên khách hàng
+        </th>
+        <th>
+            Số điện thoại
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Địa chỉ
+        </th>
+        <th>
+            Tài khoản
+        </th>
+        <th>
+            Mật khẩu
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TENKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EMAIL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIACHI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TAIKHOAN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MATKHAU)
+            </td>
+            <td>
+                <button type="button" onclick="location.href='@Url.Action("Edit", "KhachHang", new { id = item.IDKH })'">
+                    Edit
+                </button> |
+
+                <button type="button" onclick="location.href='@Url.Action("Delete", "KhachHang", new { id = item.IDKH })'">
+                    Delete
+                </button>
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.PagedListPager(Model, page => Url.Action("List", new { page }))

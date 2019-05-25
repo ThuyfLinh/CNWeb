@@ -1,0 +1,376 @@
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\ApplicationInsights.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\QLMayAnh.pdb
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csc.rsp
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\csi.rsp
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.AppContext.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Console.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\vbc.rsp
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Razor.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\WebGrease.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.Razor.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.pdb
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CopyComplete
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.dll
+C:\Users\Think\source\repos\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.pdb
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\ApplicationInsights.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\QLMayAnh.pdb
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csc.rsp
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\csi.rsp
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.AppContext.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Collections.Immutable.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Console.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Compression.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.AccessControl.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Claims.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.ValueTuple.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\vbc.rsp
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe.config
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.ApplicationInsights.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.Web.Infrastructure.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Razor.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\WebGrease.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.Razor.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.pdb
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CoreCompileInputs.cache
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CopyComplete
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.pdb
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\EntityFramework.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.dll
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\EntityFramework.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.xml
+D:\Học tập kì 6\CN Web\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\ApplicationInsights.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.pdb
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\WebGrease.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CopyComplete
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.dll
+C:\Users\Admin\Downloads\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.pdb
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\ApplicationInsights.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\QLMayAnh.pdb
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.exe.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csc.rsp
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.exe.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\csi.rsp
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.Managed.Core.targets
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.AppContext.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Collections.Immutable.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Console.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Compression.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.IO.Pipes.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.AccessControl.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Claims.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Security.Principal.Windows.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.ValueTuple.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XmlDocument.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.exe.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\vbc.rsp
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\roslyn\VBCSCompiler.exe.config
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.ApplicationInsights.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.Web.Infrastructure.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Razor.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\WebGrease.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\EntityFramework.SqlServer.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Helpers.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Mvc.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Optimization.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.Razor.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Deployment.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Web.WebPages.Razor.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Newtonsoft.Json.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Antlr3.Runtime.pdb
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\System.Diagnostics.DiagnosticSource.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CoreCompileInputs.cache
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CopyComplete
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.dll
+F:\a\QLMayAnh-20190517T043914Z-001\QLMayAnh-20190517T043914Z-001\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.pdb

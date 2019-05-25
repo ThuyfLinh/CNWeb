@@ -1,0 +1,43 @@
+﻿@model PagedList.IPagedList<QLMayAnh.Models.Entity.LOAIMAY>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Create", "LoaiMay")'">
+    <i class="fa fa-plus-square"></i> Create New
+</button>
+
+<table class="table">
+    <tr>
+        <th>
+            Mã loại máy
+        </th>
+        <th>
+            Tên loại máy
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDLOAIMAY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TENLMAY)
+            </td>
+            <td>
+                <button type="button" onclick="location.href='@Url.Action("Edit", "LoaiMay", new { id = item.IDLOAIMAY })'">
+                    Edit
+                </button> |
+                <button type="button" onclick="location.href='@Url.Action("Delete", "LoaiMay", new { id = item.IDLOAIMAY })'">
+                    Delete
+                </button>
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.PagedListPager(Model, page => Url.Action("List", new { page }))

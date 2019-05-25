@@ -1,0 +1,53 @@
+﻿@model PagedList.IPagedList<QLMayAnh.Models.Entity.DONHANG>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>
+                Mã đơn hàng
+            </th>
+            <th>
+                Mã khách hàng
+            </th>
+            <th>
+                Ngày lập
+            </th>
+            <th>
+                Trạng thái
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDDONHANG)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDKH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NGAYLAP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TRANGTHAI)
+                </td>
+                <td>
+                    <button type="button" onclick="location.href='@Url.Action("Edit", "DonHang", new { id = item.IDDONHANG })'">
+                        Edit
+                    </button> |
+                    <button type="button" onclick="location.href='@Url.Action("List", "CTDonHang", new { id = item.IDDONHANG })'">
+                        Details
+                    </button>
+
+                </td>
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+</div>

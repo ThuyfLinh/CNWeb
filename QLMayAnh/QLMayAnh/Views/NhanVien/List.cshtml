@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<QLMayAnh.Models.Entity.NHANVIEN>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Create", "NhanVien")'">
+    <i class="fa fa-plus-square"></i> Create New
+</button>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>
+                Mã nhân viên
+            </th>
+            <th>
+                Tên nhân viên
+            </th>
+            <th>
+                Số điện thoại
+            </th>
+            <th>
+                Tài khoản
+            </th>
+            <th>
+                Mật khẩu
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDNV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TENNV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SDT)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TAIKHOAN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MATKHAU)
+                </td>
+                <td>
+                    <button type="button" onclick="location.href='@Url.Action("Edit", "NhanVien", new { id = item.IDNV })'">
+                        Edit
+                    </button> |
+
+                    <button type="button" onclick="location.href='@Url.Action("Delete", "NhanVien", new { id = item.IDNV })'">
+                        Delete
+                    </button>
+                </td>
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+</div>

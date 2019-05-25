@@ -1,0 +1,54 @@
+﻿@model List<QLMayAnh.Models.Entity.MAYANH>
+@foreach (var item in Model)
+{
+    <div class="col-md-4 product-men mt-5">
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item text-center">
+                <img src="~/Content/images/@item.HINHANH" alt="">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-info-product text-center border-top mt-4">
+                <h4 class="pt-1">
+                    <a href="single.html">@item.TENMAY</a>
+                </h4>
+                <div class="info-product-price my-2">
+                    <span class="item_price">@item.DONGIA</span>
+                    <del>$280.00</del>
+                </div>
+                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+                    <a href="@Url.Action("Add","ShoppingCart",new { id = item.IDMAY})">mua</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-md-4 product-men mt-5">
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item text-center">
+                <img src="~/Content/images/m3.jpg" alt="">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro">
+                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-info-product text-center border-top mt-4">
+                <h4 class="pt-1">
+                    <a href="single.html">@item.TENMAY</a>
+                </h4>
+                <div class="info-product-price my-2">
+                    <span class="item_price">@item.DONGIA</span>
+                    <del>$280.00</del>
+                </div>
+                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+                    <a href="@Url.Action("Add","ShoppingCart",new { id = item.IDMAY})">mua</a>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+}

@@ -1,0 +1,155 @@
+﻿@model PagedList.IPagedList<QLMayAnh.Models.Entity.MAYANH>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colrolib Templates">
+    <meta name="author" content="colorlib.com">
+    <meta name="keywords" content="Colrolib Templates">
+    <!-- Title Page-->
+    <title>Au Form Wizard</title>
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/~/Content/css1/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/~/Content/css1/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+    <!-- Main CSS-->
+    <link href="~/Content/css1/main.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <div class="page-wrapper bg-color-1 p-t-395 p-b-120">
+        <div class="wrapper wrapper--w1070">
+            <div class="card card-7">
+                <div class="card-body">
+                    @using (Html.BeginForm("Search", "MayAnh"))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <h4>SanPham</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                            <form class="form" method="POST" action="#">
+                                <div class="input-group input--large">
+                                    <label class="label">Tên máy ảnh</label>
+                                    <div class="col-md-10">
+                                        @Html.TextBox("txtTenSP", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Nhập vào tên máy ảnh" })
+                                    </div>
+                                </div>
+                                <div class="input-group input--medium">
+                                    <label class="label">Đơn giá từ</label>
+                                    <div class="col-md-10">
+                                        @Html.TextBox("txtTuGia", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Đơn giá từ", @type = "number" })
+                                    </div>
+                                </div>
+                                <div class="input-group input--medium">
+                                    <label class="label">Đến giá</label>
+                                    <div class="col-md-10">
+                                        @Html.TextBox("txtDenGia", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Đên giá", @type = "number" })
+                                    </div>
+                                </div>
+                                <div class="input-group input--medium">
+                                    <label class="label">Mã loại máy</label>
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("IDLOAIMAY", new SelectList(ViewBag.IDLOAIMAY, "TENLMAY", "TENLMAY"), "", htmlAttributes: new { @class = "TimKiem" })
+                                    </div>
+                                </div>
+                                <button class="btn-submit" type="submit">search</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/jquery-validate/jquery.validate.min.js"></script>
+    <script src="vendor/bootstrap-wizard/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+    <script src="~/Scripts/js1/global.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
+<!-- end document-->
+
+<button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Create", "MayAnh")'">
+    <i class="fa fa-plus-square"></i> Create New
+</button>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>
+                Mã Máy
+            </th>
+            <th>
+                Tên máy
+            </th>
+            <th>
+                Hình ảnh
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th>
+                Loại máy
+            </th>
+            <th>
+                Đơn giá
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDMAY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TENMAY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HINHANH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MOTA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDLOAIMAY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DONGIA)
+                </td>
+                <td>
+                    <button type="button" onclick="location.href='@Url.Action("Edit", "MayAnh", new { id = item.IDMAY })'">
+                        Edit
+                    </button> | 
+                    <button type="button" onclick="location.href='@Url.Action("Delete", "MayAnh", new { id = item.IDMAY })'">
+                        Delete
+                    </button>
+
+
+                </td>
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+</div>
