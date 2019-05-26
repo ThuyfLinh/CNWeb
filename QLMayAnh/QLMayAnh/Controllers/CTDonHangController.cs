@@ -59,10 +59,9 @@ namespace QLMayAnh.Controllers
         public ActionResult Edit(CTDONHANG pr)
         {
             CTDONHANG cTDONHANG = new CTDONHANG();
-            cTDONHANG = db.CTDONHANGs.Find(pr.IDCTDONHANG);
+            cTDONHANG = db.CTDONHANGs.Find(pr.IDDONHANG);
             if (cTDONHANG != null)
             {
-                cTDONHANG.IDDONHANG = pr.IDDONHANG;
                 cTDONHANG.IDMAY = pr.IDMAY;
                 cTDONHANG.DONGIA = pr.DONGIA;
                 cTDONHANG.SOLUONG = pr.SOLUONG;
@@ -79,7 +78,7 @@ namespace QLMayAnh.Controllers
         public ActionResult Delete(CTDONHANG pr)
         {
             CTDONHANG cTDONHANG = new CTDONHANG();
-            cTDONHANG = db.CTDONHANGs.Find(pr.IDCTDONHANG);
+            cTDONHANG = db.CTDONHANGs.Find(pr.IDDONHANG);
             if(cTDONHANG != null)
             {
                 db.CTDONHANGs.Remove(pr);

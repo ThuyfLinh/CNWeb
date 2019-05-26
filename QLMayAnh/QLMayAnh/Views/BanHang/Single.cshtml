@@ -4,13 +4,12 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-@model List<QLMayAnh.Models.Entity.MAYANH>
-
+@model IEnumerable<QLMayAnh.Models.Entity.MAYANH>
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <title>Electro Store Ecommerce Category Bootstrap Responsive Web Template | Electronics :: w3layouts</title>
+    <title>Electro Store Ecommerce Category Bootstrap Responsive Web Template | Single Product 1 :: w3layouts</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -48,11 +47,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
     <!-- top-header -->
     @RenderPage("~/Views/Shared/Header.cshtml")
+    <!-- //top-header -->
+    <!-- header-bottom-->
+    <!-- //header-bottom -->
+    <!-- navigation -->
     <!-- //navigation -->
     <!-- banner-2 -->
-    <div class="page-head_agile_info_w3l">
-
-    </div>
     <!-- //banner-2 -->
     <!-- page -->
     <div class="services-breadcrumb">
@@ -63,116 +63,72 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <a href="index.html">Home</a>
                         <i>|</i>
                     </li>
-                    <li>Electronics</li>
+                    <li>Single </li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- //page -->
-    <!-- top Products -->
-    <div class="ads-grid py-sm-5 py-4">
+    <!-- Single Page -->
+    <div class="banner-bootom-w3-agileits py-5">
         <div class="container py-xl-4 py-lg-2">
             <!-- tittle heading -->
             <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
-                <span>M</span>obiles
-                <span>&</span>
-                <span>C</span>omputers
+                <span>S</span>ingle
+                <span>P</span>age
             </h3>
             <!-- //tittle heading -->
             <div class="row">
-                <!-- product left -->
-                <div class="agileinfo-ads-display col-lg-9">
-                    <div class="wrapper">
-                        <!-- first section -->
-                        <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-                            <h3 class="heading-tittle text-center font-italic">Máy Ảnh Số </h3>
-                            <div class="row">
-                                @*@Html.Action("PartialViewSanPham", "BanHang")*@
-                                @{ int i = 0;}
-                                @foreach (var item in Model)
-                                {
-                                    <div class="col-md-4 product-men mt-5">
-                                        <div class="men-pro-item simpleCart_shelfItem">
-                                            <div class="men-thumb-item text-center">
-                                                <img src="~/Content/images/@item.HINHANH" alt="">
-                                                <div class="men-cart-pro">
-                                                    <div class="inner-men-cart-pro">
-                                                        <a href="single.html" class="link-product-add-cart">Quick View</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item-info-product text-center border-top mt-4">
-                                                <h4 class="pt-1">
-                                                    <a href="single.html">@item.TENMAY</a>
-                                                </h4>
-                                                <div class="info-product-price my-2">
-                                                    <span- class="item_price">@string.Format("{0:N0}", item.DONGIA)</span->
-                                                    @*<del>$280.00</del>*@
-                                                </div>
-                                                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                                                    <a class="btn btn-success" href="@Url.Action("Add","ShoppingCart",new { id = item.IDMAY})">Mua</a>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-5 col-md-8 single-right-left ">
+                        <div class="grid images_3_of_2">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <img src="~/Content/images/@item.HINHANH" data-imagezoom="true" class="img-fluid" alt="" height="150" width="250">
+
+
                                     </div>
-                                    i++;
-                                    if (i == 6)
-                                    {
-                                        break;
-                                    }
-                                }
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 single-right-left simpleCart_shelfItem">
+                        <h3 class="mb-3">
+                            <a href="~/BanHang/Single.cshtml">@item.TENMAY</a>
+                        </h3>
+                        <p class="mb-3">
+                            <span class="item_price">@string.Format("{0:N0}", item.DONGIA)</span>
+                            @*<del class="mx-2 font-weight-light">$280.00</del>*@
+                            @*<label>Free delivery</label>*@
+                        </p>
+                        <div class="single-infoagile">
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="~/BanHang/Single.cshtml">@item.MOTA</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="occasion-cart">
+                            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+                                <a class="btn btn-success" href="@Url.Action("Add","ShoppingCart",new { id = item.IDMAY})">Mua</a>
+                                <form action="@Url.Action("Checkout", "BanHang")" method="post"></form>
                             </div>
                         </div>
-                        <!-- //second section -->
-                        <!-- 3rd section -->
-                        
-                        <!-- //fourth section -->
+
+
                     </div>
-                </div>
-                <!-- //product left -->
-                <!-- product right -->
-                @Html.Action("Right")
-                <!-- //product right -->
+                }
 
             </div>
         </div>
     </div>
-    <!-- //top products -->
+    <!-- //Single Page -->
     <!-- middle section -->
-    @*<div class="join-w3l1 py-sm-5 py-4">
-            <div class="container py-xl-4 py-lg-2">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="join-agile text-left p-4">
-                            <div class="row">
-                                <div class="col-sm-7 offer-name">
-                                    <h6>Smooth, Rich & Loud Audio</h6>
-                                    <h4 class="mt-2 mb-3">Branded Headphones</h4>
-                                    <p>Sale up to 25% off all in store</p>
-                                </div>
-                                <div class="col-sm-5 offerimg-w3l">
-                                    <img src="~/Content/images/off1.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-lg-0 mt-5">
-                        <div class="join-agile text-left p-4">
-                            <div class="row ">
-                                <div class="col-sm-7 offer-name">
-                                    <h6>A Bigger Phone</h6>
-                                    <h4 class="mt-2 mb-3">Smart Phones 5</h4>
-                                    <p>Free shipping order over $100</p>
-                                </div>
-                                <div class="col-sm-5 offerimg-w3l">
-                                    <img src="~/Content/images/off2.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>*@
     <!-- middle section -->
     <!-- footer -->
     @RenderPage("~/Views/Shared/Footer.cshtml")
@@ -219,7 +175,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
     <!-- //popup modal (for location)-->
     <!-- cart-js -->
-
     <!-- //cart-js -->
     <!-- password-script -->
     <script>
@@ -239,6 +194,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         }
     </script>
     <!-- //password-script -->
+    <!-- imagezoom -->
+    <script src="~/Scripts/js/imagezoom.js"></script>
+    <!-- //imagezoom -->
+    <!-- flexslider -->
+    <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="screen" />
+
+    <script src="~/Scripts/js/jquery.flexslider.js"></script>
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: "thumbnails"
+            });
+        });
+    </script>
+    <!-- //FlexSlider-->
     <!-- smoothscroll -->
     <script src="~/Scripts/js/SmoothScroll.min.js"></script>
     <!-- //smoothscroll -->
@@ -283,3 +255,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </body>
 
 </html>
+

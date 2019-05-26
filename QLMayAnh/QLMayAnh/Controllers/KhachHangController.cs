@@ -53,8 +53,7 @@ namespace QLMayAnh.Controllers
                 kHACHHANG.SDT = pr.SDT;
                 kHACHHANG.DIACHI = pr.DIACHI;
                 kHACHHANG.EMAIL = pr.EMAIL;
-                kHACHHANG.TAIKHOAN = pr.TAIKHOAN;
-                kHACHHANG.MATKHAU = pr.MATKHAU;
+               
             }
             return RedirectToAction("List");
         }

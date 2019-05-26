@@ -29,12 +29,6 @@ namespace QLMayAnh.Models.Entity
         [StringLength(100)]
         public string DIACHI { get; set; }
 
-        [StringLength(100)]
-        public string TAIKHOAN { get; set; }
-
-        [StringLength(100)]
-        public string MATKHAU { get; set; }
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DONHANG> DONHANGs { get; set; }
     }

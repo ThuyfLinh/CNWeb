@@ -8,7 +8,7 @@ namespace QLMayAnh.Models.Entity
     public partial class ShopModelsData : DbContext
     {
         public ShopModelsData()
-            : base("name=ShopModelsData2")
+            : base("name=ShopModelsData3")
         {
         }
 
@@ -21,13 +21,19 @@ namespace QLMayAnh.Models.Entity
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<KHACHHANG>()
-                .Property(e => e.TAIKHOAN)
-                .IsUnicode(false);
+            modelBuilder.Entity<DONHANG>()
+                .HasMany(e => e.CTDONHANGs)
+                .WithRequired(e => e.DONHANG)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<MAYANH>()
                 .Property(e => e.HINHANH)
                 .IsUnicode(false);
+
+            modelBuilder.Entity<MAYANH>()
+                .HasMany(e => e.CTDONHANGs)
+                .WithRequired(e => e.MAYANH)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<NHANVIEN>()
                 .Property(e => e.TAIKHOAN)

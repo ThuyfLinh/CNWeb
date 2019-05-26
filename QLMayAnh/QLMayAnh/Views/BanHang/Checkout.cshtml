@@ -49,7 +49,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
           rel="stylesheet">
     <!-- //web fonts -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -58,9 +58,6 @@
     @RenderPage("~/Views/Shared/Header.cshtml")
     <!-- //navigation -->
     <!-- banner-2 -->
-    <div class="page-head_agile_info_w3l">
-
-    </div>
     <!-- //banner-2 -->
     <!-- page -->
     <div class="services-breadcrumb">
@@ -103,6 +100,7 @@
 
                                 <th>Price</th>
                                 <th>Remove</th>
+                                <th>Update</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -119,19 +117,24 @@
                                         <div class="quantity">
                                             <div class="quantity-select">
                                                 <div class="entry value-minus">&nbsp;</div>
-                                                <div class="entry value">
-                                                    <span>@item.amount</span>
+                                                <div class="entry value" id="sp_@item.id">
+                                                    @item.amount
                                                 </div>
                                                 <div class="entry value-plus active">&nbsp;</div>
                                             </div>
                                         </div>
                                     </td>
                                     <td class="invert">@item.name</td>
-                                    <td class="invert">@item.price</td>
+                                    <td class="invert">
+                                        <div id="price_@item.id">@item.price</div>
+                                    </td>
                                     <td class="invert">
                                         <div class="">
                                             <a href="/ShoppingCart/Remove/@item.id"><img src="~/Content/images/close_1.png" /></a>
                                         </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success" onclick="onUpdateQuantity(@item.id, @item.price)">Update</button>
                                     </td>
                                 </tr>
                             }
@@ -142,11 +145,42 @@
             <div class="checkout-left">
                 <div class="address_form_agile mt-sm-5 mt-4">
                     <h4 class="mb-sm-4 mb-3">Add a new Details: @TotalMoney</h4>
+                    <form action="BanHang/InsertData" method="post" class="creditly-card-form agileinfo_form">
+                        <div class="creditly-wrapper wthree, w3_agileits_wrapper">
+                            <div class="information-wrapper">
+                                <div class="first-row">
+                                    <div class="controls form-group">
 
+                                        <input class="input-text" type="text" name="billing_last_name" placeholder="Full Name" id="billing_last_name" required="">
+                                    </div>
+                                    <div class="w3_agileits_card_number_grids">
+                                        <div class="w3_agileits_card_number_grid_left form-group">
+                                            <div class="controls">
+                                                <input type="text" class="form-control" placeholder="Mobile Number" id="billing_phone" name="billing_phone" required="">
+                                            </div>
+                                        </div>
+                                        <div class="w3_agileits_card_number_grid_right form-group">
+                                            <div class="controls">
+                                                <input type="text" class="form-control" placeholder="Email" name="billing_email" id="billing_email" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls form-group">
+                                        <input type="text" class="form-control" placeholder="Town/City" name="billing_city" id="billing_city" required="">
+                                    </div>
+                                    <div class="controls form-group">
+
+                                    </div>
+                                </div>
+                                @*<button class="submit check_out btn">Delivery to this Address</button>
+                                        <a href="@Url.Action("Payment", "BanHang")"></a>
+                                    </div>*@
+                            </div>
+                    </form>
                     <div class="checkout-right-basket">
-                        <a href="payment.html">
-                            Make a Payment
-                            <span class="far fa-hand-point-right"></span>
+                        <a href="">
+                            Đặt Hàng
+
                         </a>
                     </div>
                 </div>
@@ -296,6 +330,45 @@
                 newVal = parseInt(divUpd.text(), 10) - 1;
             if (newVal >= 1) divUpd.text(newVal);
         });
+
+        //const onChangeQuantity = (action, idSanPham, price) => {
+        //    let quantity
+        //    let newPrice
+        //    if (action === 'plus') {
+        //        quantity = parseInt($(`#sp_${idSanPham}`).text()) + 1
+        //    } else {
+        //        quantity = parseInt($(`#sp_${idSanPham}`).text()) - 1
+        //    }
+        //    newPrice = parseFloat(price * quantity)
+        //    $(`#sp_${idSanPham}`).text(quantity)
+        //    $(`#price_${idSanPham}`).text(newPrice)
+        //}
+
+        // update số lượng//
+        const onUpdateQuantity = (idSanPham, price) => {
+            console.log(idSanPham)
+            let quantity = parseInt($(`#sp_${idSanPham}`).text())
+            console.log(quantity)
+            let idSP = idSanPham
+
+            $.ajax({
+                url: '/ShoppingCart/UpdateQuantity',
+                data: { idSP, quantity },
+                method: 'POST',
+                dataType: 'text',
+                success: function (response) {
+                    response = JSON.parse(response)
+                    if (response.status) {
+                        //success
+                        //let newPrice = parseFloat(price * quantity)
+                        //$(`#price_${idSanPham}`).text(newPrice)
+                        $(location).attr('href', '/BanHang/Checkout')
+                    } else {
+                        alert('Thay đổi số lượng thất bại')
+                    }
+                }
+            })
+        }
     </script>
     <!--quantity-->
     <script>
@@ -370,4 +443,6 @@
 </body>
 
 </html>
+
+
 

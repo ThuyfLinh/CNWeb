@@ -10,11 +10,14 @@ namespace QLMayAnh.Models.Entity
     public partial class CTDONHANG
     {
         [Key]
-        public int IDCTDONHANG { get; set; }
+        [Column(Order = 0)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int IDDONHANG { get; set; }
 
-        public int? IDDONHANG { get; set; }
-
-        public int? IDMAY { get; set; }
+        [Key]
+        [Column(Order = 1)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int IDMAY { get; set; }
 
         public int? DONGIA { get; set; }
 

@@ -464,8 +464,8 @@ C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Dependency
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\bin\Microsoft.AI.Web.xml
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CoreCompileInputs.cache
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csproj.CopyComplete
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.dll
 C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.pdb
+C:\Users\Think\Desktop\CNWeb\CNWeb\QLMayAnh\QLMayAnh\obj\Debug\QLMayAnh.csprojAssemblyReference.cache

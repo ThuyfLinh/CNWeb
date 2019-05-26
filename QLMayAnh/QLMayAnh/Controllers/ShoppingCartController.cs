@@ -47,5 +47,35 @@ namespace QLMayAnh.Controllers
             }
             return Redirect(Request.UrlReferrer.ToString());
         }
+        [HttpPost]
+        public JsonResult UpdateQuantity(int idSP, int quantity)
+        {
+            try
+            {
+                ShoppingCart cart = (ShoppingCart)Session["cart"];
+                if (cart == null)
+                {
+                    return Json(new { status = false });
+                }
+                else
+                {
+                    Item itemChange = cart.lst.SingleOrDefault(x => x.id == idSP);
+                    if (itemChange == null)
+                    {
+                        return Json(new { status = false });
+                    }
+                    else
+                    {
+                        itemChange.amount = quantity;
+                        Session["cart"] = cart;
+                        return Json(new { status = true });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { status = false });
+            }
+        }
     }
 }
