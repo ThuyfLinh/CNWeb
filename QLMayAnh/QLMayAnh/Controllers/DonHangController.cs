@@ -19,8 +19,12 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult List(int page = 1, int pagesize = 10)
         {
-            var lst = (db.DONHANGs.SqlQuery("select * from DonHang").ToList<DONHANG>()).ToPagedList(page,pagesize);
-            return View(lst);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                var lst = (db.DONHANGs.SqlQuery("select * from DonHang").ToList<DONHANG>()).ToPagedList(page, pagesize);
+                return View(lst);
+            }
         }
        
         private IEnumerable<string> GetAllGhiChu()
@@ -34,15 +38,19 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult Edit(int id)
         {
-            DONHANG pr = new DONHANG();
-            pr = db.DONHANGs.Find(id);
-            List<KHACHHANG> cateKhachHang = db.KHACHHANGs.ToList();
-            SelectList cateListKhachHang = new SelectList(cateKhachHang, "IDKH", "TenKH");
-            ViewBag.IDKH = cateListKhachHang;
+            if (Session["us"] == null) return RedirectToAction("Login","MayAnh");
+            else
+            {
+                DONHANG pr = new DONHANG();
+                pr = db.DONHANGs.Find(id);
+                List<KHACHHANG> cateKhachHang = db.KHACHHANGs.ToList();
+                SelectList cateListKhachHang = new SelectList(cateKhachHang, "IDKH", "TenKH");
+                ViewBag.IDKH = cateListKhachHang;
 
-            ViewBag.GhiChu = GetAllGhiChu();
+                ViewBag.GhiChu = GetAllGhiChu();
 
-            return View(pr);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Edit(DONHANG pr)
@@ -62,7 +70,7 @@ namespace QLMayAnh.Controllers
         
         public ActionResult Details(int id)
         {
-            if (Session["username"] == null) return RedirectToAction("List","CTDonHang");
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
             else
             {
                 return RedirectToAction("List", "CTDonHang", new { id = id });

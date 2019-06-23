@@ -19,13 +19,19 @@ namespace QLMayAnh.Controllers
 
         public ActionResult List(int page=1, int pagesize=10)
         {
-            var lst = (db.KHACHHANGs.SqlQuery("select * from KhachHang").ToList<KHACHHANG>()).ToPagedList(page,pagesize);
-            return View(lst);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                var lst = (db.KHACHHANGs.SqlQuery("select * from KhachHang").ToList<KHACHHANG>()).ToPagedList(page, pagesize);
+                return View(lst);
+            }
         }
 
         public ActionResult Create()
         {
-            return View();
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+                return View();
         }
 
         [HttpPost]
@@ -38,9 +44,13 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Edit(int id)
         {
-            KHACHHANG pr = new KHACHHANG();
-            pr = db.KHACHHANGs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                KHACHHANG pr = new KHACHHANG();
+                pr = db.KHACHHANGs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Edit(KHACHHANG pr)
@@ -60,9 +70,13 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Delete(int id)
         {
-            KHACHHANG pr = new KHACHHANG();
-            pr = db.KHACHHANGs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                KHACHHANG pr = new KHACHHANG();
+                pr = db.KHACHHANGs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Delete(KHACHHANG pr)

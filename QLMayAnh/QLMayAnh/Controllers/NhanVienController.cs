@@ -20,12 +20,20 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult List(int page =1 , int pageSize = 10)
         {
-            var lst = (db.NHANVIENs.SqlQuery("select * from NhanVien").ToList<NHANVIEN>()).ToPagedList(page,pageSize);
-            return View(lst);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                var lst = (db.NHANVIENs.SqlQuery("select * from NhanVien").ToList<NHANVIEN>()).ToPagedList(page, pageSize);
+                return View(lst);
+            }
         }
         public ActionResult Create()
         {
-            return View();
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                return View();
+            }
         }
 
         [HttpPost]
@@ -37,9 +45,13 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult Edit(int id)
         {
-            NHANVIEN pr = new NHANVIEN();
-            pr = db.NHANVIENs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                NHANVIEN pr = new NHANVIEN();
+                pr = db.NHANVIENs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Edit(NHANVIEN pr)
@@ -59,9 +71,13 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Delete(int id)
         {
-            NHANVIEN pr = new NHANVIEN();
-            pr = db.NHANVIENs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                NHANVIEN pr = new NHANVIEN();
+                pr = db.NHANVIENs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Delete(NHANVIEN pr)

@@ -19,20 +19,28 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult List(int page = 1, int pagesize  =10)
         {
-            var lst = (db.CTDONHANGs.SqlQuery("select * from CTDONHANG").ToList<CTDONHANG>()).ToPagedList(page,pagesize);
-            return View(lst);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                var lst = (db.CTDONHANGs.SqlQuery("select * from CTDONHANG").ToList<CTDONHANG>()).ToPagedList(page, pagesize);
+                return View(lst);
+            }
         }
         public ActionResult Create()
         {
-            List<DONHANG> cateDonHang = db.DONHANGs.ToList();
-            SelectList cateListDonHang = new SelectList(cateDonHang, "IDDONHANG","IDDONHANG");
-            ViewBag.IDDONHANG = cateListDonHang;
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                List<DONHANG> cateDonHang = db.DONHANGs.ToList();
+                SelectList cateListDonHang = new SelectList(cateDonHang, "IDDONHANG", "IDDONHANG");
+                ViewBag.IDDONHANG = cateListDonHang;
 
-            List<MAYANH> cate = db.MAYANHs.ToList();
-            SelectList cateList = new SelectList(cate, "IDMAY", "TENMAY");
-            ViewBag.IDMAY = cateList;
+                List<MAYANH> cate = db.MAYANHs.ToList();
+                SelectList cateList = new SelectList(cate, "IDMAY", "TENMAY");
+                ViewBag.IDMAY = cateList;
 
-            return View();
+                return View();
+            }
         }
 
         [HttpPost]
@@ -44,16 +52,20 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult Edit(int id)
         {
-            CTDONHANG pr = new CTDONHANG();
-            pr = db.CTDONHANGs.Find(id);
-            List<DONHANG> cateDonHang = db.DONHANGs.ToList();
-            SelectList cateListDonHang = new SelectList(cateDonHang, "IDDONHANG", "IDDONHANG");
-            ViewBag.IDDONHANG = cateListDonHang;
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                CTDONHANG pr = new CTDONHANG();
+                pr = db.CTDONHANGs.Find(id);
+                List<DONHANG> cateDonHang = db.DONHANGs.ToList();
+                SelectList cateListDonHang = new SelectList(cateDonHang, "IDDONHANG", "IDDONHANG");
+                ViewBag.IDDONHANG = cateListDonHang;
 
-            List<MAYANH> cate = db.MAYANHs.ToList();
-            SelectList cateList = new SelectList(cate, "IDMAY", "TENMAY");
-            ViewBag.IDMAY = cateList;
-            return View(pr);
+                List<MAYANH> cate = db.MAYANHs.ToList();
+                SelectList cateList = new SelectList(cate, "IDMAY", "TENMAY");
+                ViewBag.IDMAY = cateList;
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Edit(CTDONHANG pr)
@@ -71,8 +83,12 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Delete(int id)
         {
-            var pr = db.CTDONHANGs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login", "MayAnh");
+            else
+            {
+                var pr = db.CTDONHANGs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Delete(CTDONHANG pr)

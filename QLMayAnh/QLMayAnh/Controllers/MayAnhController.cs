@@ -13,26 +13,36 @@ namespace QLMayAnh.Controllers
     {
         // GET: MayAnh
         ShopModelsData db = new ShopModelsData();
+
         public ActionResult Index()
         {
             var lst = db.Database.SqlQuery<MAYANH>("Select * From MAYANH ").ToList<MAYANH>();
             return View(lst.ToList());
         }
+
         public ActionResult List(int page = 1, int pagesize=10)
         {
-            List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
-            ViewBag.IDLOAIMAY = cateLoaiMay;
+            if (Session["us"] == null) return RedirectToAction("Login");
+            else
+            {
+                List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
+                ViewBag.IDLOAIMAY = cateLoaiMay;
 
-            var lst = (db.MAYANHs.SqlQuery("select * from MayAnh").ToList<MAYANH>()).ToPagedList(page, pagesize);
-            return View(lst);
+                var lst = (db.MAYANHs.SqlQuery("select * from MayAnh").ToList<MAYANH>()).ToPagedList(page, pagesize);
+                return View(lst);
+            }
         }
         public ActionResult Create()
         {
-            List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
-            SelectList cateListLoaiMay = new SelectList(cateLoaiMay, "IDLOAIMAY", "TENLMAY");
-            ViewBag.IDLOAIMAY = cateListLoaiMay;
+            if (Session["us"] == null) return RedirectToAction("Login");
+            else
+            {
+                List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
+                SelectList cateListLoaiMay = new SelectList(cateLoaiMay, "IDLOAIMAY", "TENLMAY");
+                ViewBag.IDLOAIMAY = cateListLoaiMay;
 
-            return View();
+                return View();
+            }
         }
 
         [HttpPost]
@@ -51,14 +61,18 @@ namespace QLMayAnh.Controllers
         }
         public ActionResult Edit(int id)
         {
-            MAYANH pr = new MAYANH();
-            pr = db.MAYANHs.Find(id);
+            if (Session["us"] == null) return RedirectToAction("Login");
+            else
+            {
+                MAYANH pr = new MAYANH();
+                pr = db.MAYANHs.Find(id);
 
-            List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
-            SelectList cateListLoaiMay = new SelectList(cateLoaiMay, "IDLOAIMAY", "TENLMAY");
-            ViewBag.IDLOAIMAY = cateListLoaiMay;
+                List<LOAIMAY> cateLoaiMay = db.LOAIMAYs.ToList();
+                SelectList cateListLoaiMay = new SelectList(cateLoaiMay, "IDLOAIMAY", "TENLMAY");
+                ViewBag.IDLOAIMAY = cateListLoaiMay;
 
-            return View(pr);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Edit(MAYANH pr, HttpPostedFileBase hinhMinhHoa)
@@ -86,9 +100,13 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Delete(int id)
         {
-            MAYANH pr = new MAYANH();
-            pr = db.MAYANHs.Find(id);
-            return View(pr);
+            if (Session["us"] == null) return RedirectToAction("Login");
+            else
+            {
+                MAYANH pr = new MAYANH();
+                pr = db.MAYANHs.Find(id);
+                return View(pr);
+            }
         }
         [HttpPost]
         public ActionResult Delete(MAYANH pr)
@@ -105,18 +123,20 @@ namespace QLMayAnh.Controllers
 
         public ActionResult Login()
         {
-            return View();
+            if (Session["us"] == null)
+                return View();
+            else return RedirectToAction("List");
         }
 
         [HttpPost]
         public ActionResult CheckLogin()
         {
-            
             string us = Request.Form["us"];
             string mk = Request.Form["mk"];
             var result = db.NHANVIENs.Where(p => p.TAIKHOAN == us && p.MATKHAU == mk);
             if (result.Count()>0)
             {
+                Session["us"] = us;
                 return RedirectToAction("List");
             }
             else
@@ -125,52 +145,64 @@ namespace QLMayAnh.Controllers
                 return RedirectToAction("/Login");
             }
         }
+        public ActionResult Logout()
+        {
+            Session["us"] = null;
+
+            return RedirectToAction("Login", "MayAnh");
+        }
         public ActionResult LeftMainLayout()
         {
             return PartialView();
         }
         public ActionResult Search(string tensp, string tenloaisp, string TuGia, string DenGia, int page = 1, int pageSize = 10)
         {
-
-            List<LOAIMAY> cateLoaiSP = db.LOAIMAYs.ToList();
-            if (page == 1 && tensp == null && tenloaisp == null && TuGia == null && DenGia == null)
-            {
-                tensp = Request.Form["txtTenSP"];
-                tenloaisp = Request.Form["IDLOAIMAY"];
-                TuGia = Request.Form["txtTuGia"];
-                DenGia = Request.Form["txtDenGia"];
-            }
-            if (tenloaisp == null || tenloaisp == "") tenloaisp = "";
+            if (Session["us"] == null) return RedirectToAction("Login");
             else
             {
-                LOAIMAY lp = new LOAIMAY();
-                lp = (LOAIMAY)db.LOAIMAYs.Where(p => p.TENLMAY == tenloaisp).SingleOrDefault();
-                cateLoaiSP.Remove(lp);
+                List<LOAIMAY> cateLoaiSP = db.LOAIMAYs.ToList();
 
-                LOAIMAY lp1 = new LOAIMAY();
-                lp1.IDLOAIMAY = 0;
-                lp1.TENLMAY = "";
-                cateLoaiSP.Add(lp1);
-            }
-            
-            ViewBag.TenSP = tensp;
-            ViewBag.IDLOAIMAY = cateLoaiSP;
-            ViewBag.TenLoaiSP = tenloaisp;
-            ViewBag.TuGia = TuGia;
-            ViewBag.DenGia = DenGia;
+                if (page == 1 && tensp == null && tenloaisp == null && TuGia == null && DenGia == null)
+                {
+                    tensp = Request.Form["txtTenSP"];
+                    tenloaisp = Request.Form["IDLOAIMAY"];
+                    TuGia = Request.Form["txtTuGia"];
+                    DenGia = Request.Form["txtDenGia"];
+                }
 
-            if (TuGia == ""||TuGia==null)
-            {
-                TuGia = "0";
-            }
-            if (DenGia == ""||DenGia==null)
-            {
-                DenGia = "1000000000000000";
-            }
+                if (tenloaisp == null || tenloaisp == "") tenloaisp = "";
+                else
+                {
+                    LOAIMAY lp = new LOAIMAY();
+                    lp = (LOAIMAY)db.LOAIMAYs.Where(p => p.TENLMAY == tenloaisp).SingleOrDefault();
+                    cateLoaiSP.Remove(lp);
 
-            string query = string.Format("select IDMAY, TENMAY, HINHANH, DONGIA, MAYANH.IDLOAIMAY, LOAIMAY.TENLMAY from MAYANH,LOAIMAY where MAYANH.IDLOAIMAY = LOAIMAY.IDLOAIMAY and TENMAY like N'%"+tensp+"%' and TENLMAY like N'%" + tenloaisp + "%' and DONGIA >= " + TuGia + " and DONGIA <= " + DenGia);
-            var lst = (db.Database.SqlQuery<CTMAYANH>(query).ToList()).ToPagedList(page, pageSize);
-            return View(lst);
+                    LOAIMAY lp1 = new LOAIMAY();
+                    lp1.IDLOAIMAY = 0;
+                    lp1.TENLMAY = "";
+                    cateLoaiSP.Add(lp1);
+                }
+
+                ViewBag.TenSP = tensp;
+                ViewBag.IDLOAIMAY = cateLoaiSP;
+                ViewBag.TenLoaiSP = tenloaisp;
+                ViewBag.TuGia = TuGia;
+                ViewBag.DenGia = DenGia;
+
+                if (TuGia == "" || TuGia == null)
+                {
+                    TuGia = "0";
+                }
+
+                if (DenGia == "" || DenGia == null)
+                {
+                    DenGia = "1000000000000000";
+                }
+
+                string query = string.Format("select IDMAY, TENMAY, HINHANH, DONGIA, MAYANH.IDLOAIMAY, LOAIMAY.TENLMAY from MAYANH,LOAIMAY where MAYANH.IDLOAIMAY = LOAIMAY.IDLOAIMAY and TENMAY like N'%" + tensp + "%' and TENLMAY like N'%" + tenloaisp + "%' and DONGIA >= " + TuGia + " and DONGIA <= " + DenGia);
+                var lst = (db.Database.SqlQuery<CTMAYANH>(query).ToList()).ToPagedList(page, pageSize);
+                return View(lst);
+            }
         }
     }
 }

@@ -50,25 +50,25 @@
                                 <div class="input-group input--large">
                                     <label class="label">Tên máy ảnh</label>
                                     <div class="col-md-10">
-                                        @Html.TextBox("txtTenSP", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Nhập vào tên máy ảnh" })
+                                        @Html.TextBox("txtTenSP", s , htmlAttributes: new { @class = "TimKiem", @placeholder = "Nhập vào tên máy ảnh" })
                                     </div>
                                 </div>
                                 <div class="input-group input--medium">
                                     <label class="label">Đơn giá từ</label>
                                     <div class="col-md-10">
-                                        @Html.TextBox("txtTuGia", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Đơn giá từ", @type = "number" })
+                                        @Html.TextBox("txtTuGia",tugia, htmlAttributes: new { @class = "TimKiem", @placeholder = "Đơn giá từ", @type = "number" })
                                     </div>
                                 </div>
                                 <div class="input-group input--medium">
                                     <label class="label">Đến giá</label>
                                     <div class="col-md-10">
-                                        @Html.TextBox("txtDenGia", "", htmlAttributes: new { @class = "TimKiem", @placeholder = "Đên giá", @type = "number" })
+                                        @Html.TextBox("txtDenGia", dengia, htmlAttributes: new { @class = "TimKiem", @placeholder = "Đên giá", @type = "number" })
                                     </div>
                                 </div>
                                 <div class="input-group input--medium">
                                     <label class="label">Mã loại máy</label>
                                     <div class="col-md-10">
-                                        @Html.DropDownList("IDLOAIMAY", new SelectList(ViewBag.IDLOAIMAY, "TENLMAY", "TENLMAY"), "", htmlAttributes: new { @class = "TimKiem" })
+                                        @Html.DropDownList("IDLOAIMAY", new SelectList(ViewBag.IDLOAIMAY, "TENLMAY", "TENLMAY"), loaisp, htmlAttributes: new { @class = "TimKiem" })
                                     </div>
                                 </div>
                                 <button class="btn-submit" type="submit">search</button>
@@ -112,6 +112,9 @@
                 Hình ảnh
             </th>
             <th>
+                Mô tả
+            </th>
+            <th>
                 Đơn giá
             </th>
             <th>
@@ -121,31 +124,34 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @item.IDMAY
-                </td>
-                <td>
-                    @item.TENMAY
-                </td>
-                <td>
-                    @item.HINHANH
-                </td>
-                <td>
-                    @item.DONGIA
-                </td>
-                <td>
-                    @item.IDLOAIMAY
-                </td>
-                <td>
-                    <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Edit", "MayAnh", new { id = item.IDMAY })'">
-                        <i class="fa fa-edit"></i>
-                    </button> |
-                    <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Delete", "MayAnh", new { id = item.IDMAY })'">
-                        <i class="fa fa-trash"></i>
-                    </button>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @item.IDMAY
+            </td>
+            <td>
+                @item.TENMAY
+            </td>
+            <td>
+                @item.HINHANH
+            </td>
+            <td>
+                @item.MOTA
+            </td>
+            <td>
+                @item.DONGIA
+            </td>
+            <td>
+                @item.IDLOAIMAY
+            </td>
+            <td>
+                <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Edit", "MayAnh", new { id = item.IDMAY })'">
+                    <i class="fa fa-edit"></i>
+                </button> |
+                <button type="button" class="btn btn-info" onclick="location.href='@Url.Action("Delete", "MayAnh", new { id = item.IDMAY })'">
+                    <i class="fa fa-trash"></i>
+                </button>
+            </td>
+        </tr>
         }
 
     </table>

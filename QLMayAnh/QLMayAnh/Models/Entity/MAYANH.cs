@@ -27,9 +27,9 @@ namespace QLMayAnh.Models.Entity
         [StringLength(300)]
         public string MOTA { get; set; }
 
-        public int? DONGIA { get; set; }
+        public int DONGIA { get; set; }
 
-        public int? IDLOAIMAY { get; set; }
+        public int IDLOAIMAY { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CTDONHANG> CTDONHANGs { get; set; }
